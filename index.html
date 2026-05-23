@@ -90,6 +90,12 @@
       opacity: 0.5;
     }
 
+    .nav-center a.active {
+      font-weight: 500;
+      border-bottom: 1.5px solid var(--text);
+      padding-bottom: 2px;
+    }
+
     .nav-right {
       display: flex;
       align-items: center;
@@ -437,13 +443,13 @@
 
   <!-- ─── Navigation ─── -->
   <nav>
-    <a class="nav-logo" href="/">
+    <a class="nav-logo" href="index.html">
       Yahia AboZaid
     </a>
 
     <div class="nav-center">
-      <a href="/">Home</a>
-      <a href="/projects">Projects</a>
+      <a href="index.html" class="active">Home</a>
+      <a href="project.html">Projects</a>
     </div>
 
     <div class="nav-right">
@@ -514,7 +520,7 @@
   <section class="projects-section" id="projects">
     <div class="section-header">
       <span class="section-label">Latest Projects</span>
-      <a class="view-all-link" href="/projects">
+      <a class="view-all-link" href="project.html">
         View all Projects
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
           <line x1="5" y1="12" x2="19" y2="12"/>
@@ -571,8 +577,8 @@
     <a class="footer-email" href="mailto:yahiaabozaid20@gmail.com">yahiaabozaid20@gmail.com</a>
 
     <ul class="footer-nav">
-      <li><a href="/">Home</a></li>
-      <li><a href="/projects">Projects</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="project.html">Projects</a></li>
     </ul>
 
     <div class="footer-social">
